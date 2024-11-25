@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* .navbar.scrolled {
+    background-color: black;
+    left: 0%;
+    right: 0%;
+    height: 100px;
+} */
+
+.icon {
+    background-color: rgb(8, 181, 181);
+    height: 5px;
+    width: 2px;
+    position: relative;
+    margin-left: 8px;
+    animation: colorAnimate 2s ease-out 3s infinite normal;
+}
+
+@keyframes colorAnimate {
+   from {
+    top: 8px;
+   }
+   to {
+    top: 20px;
+
+   }
+}
+
+
+
+
+    
